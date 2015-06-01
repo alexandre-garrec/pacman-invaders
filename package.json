@@ -1,0 +1,27 @@
+{
+  "name": "pacman-invaders",
+  "version": "0.0.1",
+  "description": "pacman-invaders",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandre Garrec",
+  "license": "ISC",
+  "dependencies": {
+    "assign": "^0.1.7",
+    "babelify": "^5.0.4",
+    "browser-sync": "^2.7.6",
+    "events": "^1.0.2",
+    "gulp": "^3.8.11",
+    "gulp-browserify": "^0.5.1",
+    "gulp-less": "^3.0.3",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "imagesloaded": "^3.1.8",
+    "lodash": "^3.5.0",
+    "object-assign": "^2.0.0",
+    "react": "^0.12.2",
+    "react-router": "^0.12.4"
+  }
+}
