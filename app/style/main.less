@@ -2,12 +2,60 @@
 @import "style/font-awesome.css";
 
 
-body{
+body , html{
     margin: 0px;
     padding: 0px;
     font-family: Sans-Serif;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    background-color: #ffffff;
+}
+html {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.center{
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Safari */
+    left: 50%;
+    position: fixed;
+
+    top: 50%;
+}
+
+.MainMenu{
+    padding: 0px;
+    height: auto;
+    text-align: center;
+
+    .center;
+
+    font-size: 2em;
+
+    li{
+        padding : 20px;
+        list-style: none;
+
+        a{
+            font-style: none;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+
+            &:hover{
+                color: #f9fe1b;
+            }
+        }
+    }
+}
+
+.game{
+    &Wrapper{
+        width: 500px;
+        height: 500px;
+        background-color: #ffffff;
+        .center;
+    }
 }

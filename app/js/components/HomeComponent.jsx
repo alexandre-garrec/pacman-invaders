@@ -1,6 +1,9 @@
 var Router  = require('react-router');
 var Link = Router.Link;
 
+var MenuComponent = require('./MenuComponent.jsx');
+
+
 
 
 
@@ -13,8 +16,11 @@ var HomeComponent = module.exports = React.createClass({
         return state;
     },
     render: function() {
-        return (<div><h1>Pacman Invaders</h1></div>);
-    
+        return (
+            <div>
+                <MenuComponent/>
+            </div>
+        );
     },
 
 });
