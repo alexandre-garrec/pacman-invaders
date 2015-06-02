@@ -1,4 +1,5 @@
-window.React = require('react/addons');
+window.React  = require('react/addons');
+window._      = require('lodash');
 
 React.initializeTouchEvents(true);
 
